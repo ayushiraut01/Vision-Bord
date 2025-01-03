@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/e7/d4/46/e7d44605120b5565a51cf8ab6780ee95.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+    color: #333;
+}
+
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: rgba(246, 181, 181, 0.9); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input,
+.form textarea {
+    width: 60%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+.form button {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #28a745, #218838);
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.form button:hover {
+    background: linear-gradient(90deg, #218838, #28a745);
+    transform: scale(1.05);
+}
+
+/* Vision Board */
+.vision-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Goal Card */
+.goal {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.goal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.goal img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.goal h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.goal p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Delete Button */
+.delete-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #dc3545;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.delete-button:hover {
+    background: #c82333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
